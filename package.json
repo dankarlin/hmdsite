@@ -1,5 +1,5 @@
 {
-  "name": "hmd-ultimate",
+  "name": "hmdsite",
   "private": false,
   "version": "0.0.1",
   "homepage": "https://hmdultimate.com",
@@ -13,10 +13,12 @@
     "deploy": "gh-pages -d dist --cname hmdultimate.com"
   },
   "dependencies": {
+    "@tryghost/content-api": "^1.11.21",
     "bootstrap": "^5.3.3",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -29,6 +31,7 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
-    "vite": "^6.1.0"
+    "vite": "^6.1.0",
+    "vite-plugin-radar": "^0.10.0"
   }
 }
